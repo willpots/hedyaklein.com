@@ -1,0 +1,132 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", sans-serif;
+}
+/* General */
+a {
+	color:black;
+	text-decoration: none;
+}
+a:hover {
+	color:#FF8300;
+}
+.clear {
+	clear: both;
+}
+/* Name Page */
+.name-outer-container {
+	height: 100%;
+	width: 100%;
+}
+.name-container {
+	text-align: center;
+	text-transform:uppercase;
+	letter-spacing:10px;
+	font-size: 60px;
+	font-weight: 500;
+	padding: 200px 0 0 0;
+    vertical-align: middle;
+}
+.name-container a {
+	color:black;
+	text-decoration: none;
+}
+.name-container a:hover {
+	color:#FFFF00;
+}
+
+/* Main Page */
+
+.main-header {
+	width: 100%;
+	position: fixed;
+	letter-spacing: 1px;
+	z-index: 1000;
+	background:white;
+}
+
+.right-links {
+	padding: 20px;
+	float: right;
+}
+.left-links {
+	padding: 20px;
+	float: left;
+}
+.main-sidebar {
+	float: left;
+	padding: 100px 40px;
+	margin-top:58px;
+	position: fixed;
+	background:white;
+	z-index: 1000;
+	height:600px;
+}
+.item {
+	padding: 5px 0;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+.item:hover {
+	color:#FFFF00;
+}
+.content {
+	float: left;
+	position: relative;
+	margin-left: 350px;
+	margin-top: 130px;
+	overflow: hidden;
+}
+.article {
+	padding: 30px;
+}
+.hidden {
+	display: none;
+}
+
+#animation {
+
+}
+#collaboration {
+
+}
+#installation {
+
+}
+#public-work {
+
+}
+#paper {
+
+}
+.piece {
+	margin-bottom: 10px;
+}
+.piece ol {
+	list-style: none;
+	margin:0 0;
+}
+.display {
+	padding:0 5px;
+	overflow: scroll;
+}
+.display h4 {
+	margin: 10px 0 10px 0;
+}
+.display .pictures {
+	overflow-x: scroll;
+	width:1000px;
+}
+.display .pictures .inner-pictures {
+    width: auto;
+	white-space:nowrap;
+}
+.display .pictures .inner-pictures img {
+	margin: 10px;
+	max-height: 500px;
+}
+.description, ol {	
+	font-size: 13px;
+}
+
