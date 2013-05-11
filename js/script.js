@@ -19,6 +19,14 @@ $(document).ready(function() {
 		$('.article').addClass('hidden');
 		$('#paper').removeClass('hidden');
 	});
+	$("#contact-b").click(function(e) {
+		$('.article').addClass('hidden');
+		$('#contact').removeClass('hidden');
+	});
+	$("#about-b").click(function(e) {
+		$('.article').addClass('hidden');
+		$('#about').removeClass('hidden');
+	});
 
 
 });
